@@ -1,8 +1,11 @@
 package com.pedidos.entities;
 
+import lombok.Data;
+
 import javax.persistence.*;
 import java.io.Serializable;
 
+@Data
 @Entity
 public class Livro implements Serializable {
     private static final long serialVersionUID = 1L;
