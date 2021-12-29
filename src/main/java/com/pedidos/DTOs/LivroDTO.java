@@ -1,6 +1,8 @@
 package com.pedidos.DTOs;
 
+import lombok.Data;
 
+@Data
 public class LivroDTO  {
 
     private Long id;
